@@ -9,24 +9,6 @@ function App() {
 
     const [tasks, setTasks] = useState(
         [
-            {
-                id: 1,
-                text: 'Doctors Appointment',
-                day: 'Feb 5th 2:20pm',
-                reminder: true
-            },
-            {
-                id: 2,
-                text: 'Meeting at School',
-                day: 'Feb 7th 8:20pm',
-                reminder: true
-            },
-            {
-                id: 3,
-                text: 'Food Shopping',
-                day: 'Feb 9th 9:20pm',
-                reminder: true
-            },
         ]);
 
     // Toggle reminder
